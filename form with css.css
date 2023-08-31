@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   /* background-color: aqua;*/
+   background:url("pexels-david-peterson-1076429.jpg")no-repeat;
+    background-size:cover;
+    background-position:center;
+  }
+  
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #1adf4f;
+  }
+  
+  button {
+    background-color: #1c598f;
+    color: rgb(37, 219, 61);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
